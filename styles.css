@@ -55,31 +55,46 @@ h1, h2, h3, h4, p {
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
-    height: 400px;
+    height: 300px;
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 
-#gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+#gift-img-gotchu:hover,
+#gift-img-gotchu:active {
+    background-image: url("images/Gotchu.gif");
+    max-width: 31rem;
+    height: 276px;
 }
 
-#gift-img-hot:hover {
+#gift-img-hot:hover,
+#gift-img-hot:active {
     background-image: url("images/hot.gif");
+    height: 400px;
 }
 
-#gift-img-genius:hover {
+#gift-img-genius:hover,
+#gift-img-genius:active {
     background-image: url("images/genius.gif");
+    height: 224px;
+}
+
+#gift-img-happy:hover,
+#gift-img-happy:active {
+    background-image: url("images/happy.gif");
+    height: 310px;
 }
 
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
 }
 
-#gift-img-cheers:hover {
+#gift-img-cheers:hover,
+#gift-img-cheers:active{
     background-image: url("images/cheers.gif");
+    height: 410px;
 }
 
 #footer {
